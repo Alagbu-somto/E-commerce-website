@@ -644,6 +644,7 @@ span.text-red {
     width: 50%;
     left: 30%;
     top: 6%;
+    height: auto;
     /* height: 56%; */
   }
   .banner-desc .left h3 {
