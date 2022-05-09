@@ -150,7 +150,7 @@ span.text-red {
   width: 100%;
 }
 .hero-banner-container .beats-solo {
-  font-size: 20px;
+  font-size: 18px;
 }
 .hero-banner-container button {
   border-radius: 15px;
@@ -642,10 +642,10 @@ span.text-red {
   }
   .footer-banner-image {
     width: 50%;
-    left: 30%;
+    left: 50%;
     top: 6%;
-    height: auto;
-    /* height: 56%; */
+    /* height: auto; */
+    height: 56%;
   }
   .banner-desc .left h3 {
     font-weight: 900;
@@ -654,6 +654,7 @@ span.text-red {
   }
   .banner-desc .left p {
     margin: 18px;
+    margin-left: 5px;
   }
   .banner-desc .right h3 {
     font-size: 45px;
@@ -673,6 +674,7 @@ span.text-red {
   }
   .hero-banner-container h1 {
     font-size: 50px;
+    margin: 0;
   }
   .hero-banner-container h3 {
     font-size: 40px;
@@ -688,11 +690,11 @@ span.text-red {
     flex-wrap: wrap;
   }
   .product-detail-container .product-detail-image {
-    width: 350px;
+    width: 300px;
     height: 350px;
   }
   .cart-container {
-    width: 415px;
+    width: 350px;
     padding: 4px;
   }
   .cart-heading {
