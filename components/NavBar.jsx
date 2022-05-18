@@ -8,17 +8,24 @@ const NavBar = () => {
   return (
     <div className="navbar-container">
       <p className="logo">
-        <Link href="/">Mr stephen's headphones</Link>
+        <Link href="/">
+          <b>E-Store</b>
+        </Link>
       </p>
-      <button
-        type="button"
-        className="cart-icon"
-        onClick={() => setShowCart(!showCart)}
-      >
-        <AiOutlineShopping />
-        <span className="cart-item-qty">{totalQuantity}</span>
-      </button>
-      {showCart ? <Cart /> : null}
+      <div>
+        <span className="nav-home">
+          <Link href="/">Home</Link>
+        </span>
+        <button
+          type="button"
+          className="cart-icon"
+          onClick={() => setShowCart(!showCart)}
+        >
+          <AiOutlineShopping />
+          <span className="cart-item-qty">{totalQuantity}</span>
+        </button>
+        {showCart ? <Cart /> : null}
+      </div>
     </div>
   );
 };

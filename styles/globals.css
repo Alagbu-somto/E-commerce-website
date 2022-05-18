@@ -80,8 +80,13 @@ span.text-red {
   margin-left: 6px;
 }
 .logo {
-  color: gray;
-  font-size: 18px;
+  font-family: cursive;
+  color: #111d13;
+  font-size: 30px;
+}
+.nav-home {
+  font-size: 1.2rem;
+  margin: auto 10px;
 }
 .cart-icon {
   font-size: 25px;
@@ -455,7 +460,7 @@ span.text-red {
   background-color: #f02d34;
 }
 .reviews {
-  color: #f02d34;
+  color: #fff;
   margin-top: 10px;
   display: flex;
   gap: 5px;
@@ -476,7 +481,7 @@ span.text-red {
   font-weight: 700;
   font-size: 26px;
   margin-top: 30px;
-  color: #f02d34;
+  color: #fff;
 }
 .price .old-price,
 .product-price .old-price,
@@ -569,7 +574,7 @@ span.text-red {
 }
 .success-wrapper,
 .cancel-wrapper {
-  background-color: white;
+  /* background-color: white; */
   min-height: 60vh;
 }
 .success,
